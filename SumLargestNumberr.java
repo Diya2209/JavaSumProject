@@ -28,6 +28,8 @@ public class SumLargestNumberr {
         System.out.println("The largest number is:" + largest);
         System.out.println("The sum of the largest number is:" + sum);
 
+        float average = (num1 + num2 + num3) / 3;
+        System.out.println("The average of the three numbers is:" + average);
         scanner.close();
     }
 
